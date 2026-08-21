@@ -2090,3 +2090,4 @@ function CloseBookModal({ mode, book, statusEntries, onClose, onSave }) {
     </div>
   );
 }
+

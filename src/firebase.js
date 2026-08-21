@@ -4,13 +4,16 @@ import {
   getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged,
 } from "firebase/auth";
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "PASTE_FROM_FIREBASE_CONSOLE",
-  authDomain: "PASTE_FROM_FIREBASE_CONSOLE",
-  projectId: "PASTE_FROM_FIREBASE_CONSOLE",
-  storageBucket: "PASTE_FROM_FIREBASE_CONSOLE",
-  messagingSenderId: "PASTE_FROM_FIREBASE_CONSOLE",
-  appId: "PASTE_FROM_FIREBASE_CONSOLE",
+  apiKey: "AIzaSyDHP7I_CDk24cQXWtGUcgDZFSpG-zJcJW0",
+  authDomain: "sara-reading-log.firebaseapp.com",
+  projectId: "sara-reading-log",
+  storageBucket: "sara-reading-log.firebasestorage.app",
+  messagingSenderId: "324877421887",
+  appId: "1:324877421887:web:45ba3fe97d2c9c5368d78a",
+  measurementId: "G-D0H78LZLFB"
 };
 
 export const app = initializeApp(firebaseConfig);
